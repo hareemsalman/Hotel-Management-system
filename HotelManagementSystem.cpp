@@ -19,7 +19,7 @@ private:
     double guest_total[MAX_GUESTS];
     double guest_food[MAX_GUESTS];
 
-    string menu_name[MAX_MENU_ITEMS]; // Changed to string
+    string menu_name[MAX_MENU_ITEMS]; 
     double menu_price[MAX_MENU_ITEMS];
 
     int room_count = 0, guest_count = 0, menu_count = 0;
@@ -135,8 +135,8 @@ public:
         }
         string item_name;
         cout << "Enter item name: ";
-        cin >> item_name; // Changed to cin
-        menu_name[menu_count] = item_name; // Store the item name
+        cin >> item_name;
+        menu_name[menu_count] = item_name; 
         cout << "Enter price: ";
         cin >> menu_price[menu_count];
         menu_count++;
